@@ -16,6 +16,8 @@ class DatabaseSeeder extends Seeder
         \App\Models\User::factory(18)->create();
 
         \App\Models\Article::factory(18)->create();
+
+        \App\Models\Reviews::factory(18)->create();
     }
 }
 
